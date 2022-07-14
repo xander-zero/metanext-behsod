@@ -19,6 +19,7 @@ export default function useWindowSize() {
           height: window.innerHeight,
         });
       }
+      console.log("Hello");
 
       // Add event listener
       window.addEventListener("resize", handleResize);
